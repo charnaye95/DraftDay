@@ -1,0 +1,35 @@
+[
+  {
+    "Image": "assets/Jabari_Smith.jpeg",
+    "Name": "Jabari Smith",
+    "Position": "PF",
+    "League_School": "Auburn",
+    "Height": "6-10",
+    "Weight": 220,
+    "FG": 42.9,
+    "PTS": 16.9,
+    "AST": 2.0,
+    "REB": 7.4,
+    "STL": 1.1,
+    "BLK": 1.0,
+    "TO": 1.9,
+    "Highlight": "https://youtu.be/OKj7Be-iAsc",
+    "Notes": "Add here"
+  },
+  {
+    "name": "100% Beef Patty",
+    "img": "https://s7d1.scene7.com/is/image/mcdonalds/10_1_patty"
+  },
+  {
+    "name": "Shredded Lettuce",
+    "img": "https://s7d1.scene7.com/is/image/mcdonalds/shredded_lettuce"
+  },
+  {
+    "name": "Big Mac Sauce",
+    "img": "https://s7d1.scene7.com/is/image/mcdonalds/shredded_lettuce"
+  },
+  {
+    "name": "American Cheese",
+    "img": "https://s7d1.scene7.com/is/image/mcdonalds/ingredient_american_cheese_180x180"
+  }
+]

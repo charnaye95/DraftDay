@@ -1,0 +1,26 @@
+{
+  "name": "draftday",
+  "version": "1.0.0",
+  "description": "Sources:  ESPN Bleacher Report YouTube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charnaye95/DraftDay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charnaye95/DraftDay/issues"
+  },
+  "homepage": "https://github.com/charnaye95/DraftDay#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "method-override": "^3.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

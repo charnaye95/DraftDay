@@ -1,7 +1,6 @@
 // REQUIRE what you need first, CREATE variables to access, SET our view engine for our app, USE
 
 const express = require('express')
-
 const app = express()
 
 const methodOverride = require('method-override')

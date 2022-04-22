@@ -3,16 +3,34 @@ const router = express.Router()
 
 const Nba = require('../models/nba-model')
 
-//Create
 
-//Read
+//GET / read / list of players
 router.get('/', (req,res) => {
     Nba.find({})
-    .then((players) => res.render("index", {nbaPlayers: players}))
+    .then((players) => res.render('index', {nbaPlayers: players}))
+})
+//GET / read / players by college
+router.get('/:id', (req,res) => {
+    id = req.params.League_School
+    Nba.findById({id})
+    .then((players) => res.render('index', {nbaPlayers: players}))
 })
 
-//Update
+//GET / read / players by position
+router.get('/:id', (req,res) => {
+    id = req.params.Position
+    Nba.findById({id})
+    .then((players) => res.render('index', {nbaPlayers: players}))
+})
+//POST / create / adding players to the database
 
-//Delete
+
+//PUT / update / players information
+
+//PUT / update / notes on a player
+
+
+//DELETE / delete player from the database
+
 
 module.exports = router

@@ -1,13 +1,15 @@
 <h1>NBA DraftDay</h1>
 
-<div class = "board">
-    <% nbaPlayers.forEach(players => { %> 
-        <li> 
-            <%= players.image %> 
-        </li>
-    <li>
-        <%= players.name %> 
+<div>
+    <li> 
+        <%= nbaPlayers %> 
     </li>
-    
-    <% }); %>
+    <li>
+        <%= nbaPlayers[1].Image %> 
+    </li>
+    <li>
+        <%= nbaPlayers[1].Name %> 
+    </li>
 </div>
+      
+    

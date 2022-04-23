@@ -9,19 +9,19 @@ router.get('/', (req,res) => {
     Nba.find({})
     .then((players) => res.render('index', {nbaPlayers: players}))
 })
-//GET / read / players by college
+// GET / read / players by college
 router.get('/:id', (req,res) => {
-    id = req.params.League_School
+    id = req.params[{}].League_School
     Nba.findById({id})
     .then((players) => res.render('index', {nbaPlayers: players}))
 })
 
 //GET / read / players by position
-router.get('/:id', (req,res) => {
-    id = req.params.Position
-    Nba.findById({id})
-    .then((players) => res.render('index', {nbaPlayers: players}))
-})
+// router.get('/:id', (req,res) => {
+//     id = req.params.Position
+//     Nba.findById({id})
+//     .then((players) => res.render('index', {nbaPlayers: players}))
+// })
 //POST / create / adding players to the database
 
 

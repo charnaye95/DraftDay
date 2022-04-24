@@ -9,12 +9,13 @@ router.get('/', (req,res) => {
     Nba.find({})
     .then((players) => res.render('index', {nbaPlayers: players}))
 })
+
 // GET / read / players by college
-router.get('/:id', (req,res) => {
-    id = req.params[{}].League_School
-    Nba.findById({id})
-    .then((players) => res.render('index', {nbaPlayers: players}))
-})
+// router.get('/:id', (req,res) => {
+//    console.log(req.params)
+//     Nba.find({Image: {$exists: true}})    
+//     .then((players) => res.render('index', {nbaPlayers: players}))
+// })
 
 //GET / read / players by position
 // router.get('/:id', (req,res) => {

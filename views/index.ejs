@@ -1,15 +1,20 @@
 <h1>NBA DraftDay</h1>
 
 <div>
-    <li> 
-        <%= nbaPlayers %> 
-    </li>
-    <li>
-        <%= nbaPlayers[1].Image %> 
-    </li>
-    <li>
-        <%= nbaPlayers[1].Name %> 
-    </li>
-</div>
-      
+    <% for( let i = 0; i <= nbaPlayers.length; i++ ) { %>
+        <div>
+            <%=nbaPlayers[i]%> 
+        </div>
+    <% } %>
     
+</div>
+
+<div>
+    <% for(const players of nbaPlayers) { %> 
+        Name: <%= players.Name %> 
+        <br>
+        Image: <%= players.Image %> 
+
+        <% } %> 
+</div>
+

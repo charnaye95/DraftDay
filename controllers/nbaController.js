@@ -8,6 +8,7 @@ const Nba = require('../models/nba-model')
 router.get('/', (req,res) => {
     Nba.find({})
     .then((players) => res.render('index', {nbaPlayers: players}))
+    .catch((err) => res.json(err))
 })
 
 // GET / read / players by college

@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.logo {
+    height: auto;
+   width: 100vw;
+
+   
+}
+
+.board {
+display: flex;
+flex-direction: column;
+border: 3px solid red;
+
+}
+.prospect {
+    border-top: solid red;
+}
+.img {
+    width: 10%;
+    height: 25%;
+}
+.stats {
+    text-align: center;
+}

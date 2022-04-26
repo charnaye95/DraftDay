@@ -1,27 +1,54 @@
-<link rel="stylesheet" type="text/css" href="../public/styles.css" />
+<!DOCTYPE html>
+<html lang="en">
 
-<h1>NBA DraftDay</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DraftDay</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
 
-<img src="https://wallpaperaccess.com/full/1112641.jpg" alt="NBA Team Logos">
+<body>
+    <h1>NBA DraftDay</h1>
 
-<div>
-    <% for( let i = 0; i <= nbaPlayers.length; i++ ) { %>
-        <div>
-            <%=nbaPlayers[i]%> 
-        </div>
-    <% } %>
-    
-</div>
+    <img src="https://wallpaperaccess.com/full/1112641.jpg" alt="NBA Team Logos" class="logo">
 
-<div>
-    <% for(const players of nbaPlayers) { %> 
-        <div class="img">
-        Image: <img src="<%= players.Image %> " alt="">
-        </div>
-        <div>
-        Name: <%= players.Name %>
-        
-        <% } %> 
-        </div>
-</div>
 
+    <div class="board">
+        <% for(const players of nbaPlayers) { %>
+            <div class="prospect">
+                <img src="<%= players.Image %> " alt="" class="img">
+                <p>Name: <%= players.Name %>
+                </p>
+                <p>Position: <%= players.Position %>
+                </p>
+                <p>
+                    <%= players.League_School %>
+                </p>
+                <p>Height: <%= players.Height %>
+                </p>
+                <p>Weight: <%= players.Weight %>
+                </p>
+                <div class="stats">
+                    Stats
+                    <p>FG: <%= players.FG %>% </p>
+                    <p>PTS: <%= players.PTS %> </p>
+                    <p>AST: <%= players.AST %> </p>
+                    <p>REB: <%= players.REB %> </p>
+                    <p>STL: <%= players.STL %> </p>
+                    <p>BLK: <%= players.BLK %> </p>
+                    <p>TO: <%= players.TO %> </p>
+                  
+                    <iframe width="560" height="315" src="<%= try using the embed hyperlinks in instead of shared link for the database and try again %> https://www.youtube.com/embed/_cui-Sft8IA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    link"Highlight": "https://youtu.be/_cui-Sft8IA",
+                    "Notes": "Thoughts? Add them here."
+                </div>
+
+
+                <% } %>
+            </div>
+    </div>
+</body>
+
+</html>

@@ -5,6 +5,8 @@ const app = express()
 
 const methodOverride = require('method-override')
 
+app.use(express.static('public'))
+
 const nbaController = require('./controllers/nbaController')
 
 app.use(methodOverride('_method'))

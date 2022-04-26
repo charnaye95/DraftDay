@@ -1,6 +1,6 @@
 [
   {
-    "Image": "assets/Jabari_Smith.jpeg",
+    "Image": "https://d1xk4lz7u1u0yl.cloudfront.net/images/2021/9/12/Jabari_Smith_headshot_20210819__SL21523_edited_8x10.JPG?width=146",
     "Name": "Jabari Smith",
     "Position": "PF",
     "League_School": "Auburn",
@@ -17,7 +17,7 @@
     "Notes": "Thoughts? Add them here."
   },
   {
-    "Image": "assets/Paolo_Banchero.jpeg",
+    "Image": "https://d3cin4duo2vkym.cloudfront.net/images/2021/9/21/Banchero.jpg?width=300",
     "Name": "Paolo Banchero",
     "Position": "PF",
     "League_School": "Duke",
@@ -34,7 +34,7 @@
     "Notes": "Thoughts? Add them here."
   },
   {
-     "Image": "assets/Chet_Holmgren.jpeg",
+     "Image": "https://d2jpxbzntgxotn.cloudfront.net/images/2021/9/29/GONZAGA_HOLMGREN_CHET.jpg?width=300",
     "Name": "Chet Holmgren",
     "Position": "PF/C",
     "League_School": "Gonzaga",
@@ -51,7 +51,7 @@
     "Notes": "Thoughts? Add them here."
   },
   {
-   "Image": "assets/Jaden_Ivey.jpeg",
+   "Image": "https://purduesports.com/images/2021/10/20/_23_Ivey_Jaden.JPG?width=146",
     "Name": "Jaden Ivey",
     "Position": "PG/SG",
     "League_School": "Purdue",
@@ -68,7 +68,7 @@
     "Notes": "Thoughts? Add them here."
   },
   {
-     "Image": "assets/Keegan_Murray.jpeg",
+     "Image": "https://kscj.com/wp-content/uploads/2021/12/Murray_Keegan-640x800.jpg",
     "Name": "Keegan Murray",
     "Position": "PF",
     "League_School": "Iowa",

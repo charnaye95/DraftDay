@@ -7,17 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DraftDay</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <h1>NBA DraftDay</h1>
 
-    <img src="" alt="NBA Team Logos" class="logo">
-
-
     <div class="board">
         <% for(const players of nbaPlayers) { %>
             <div class="prospect">
+                <div class="alignment">
+                    <div class=info>
                 <img src="<%= players.Image %> " alt="" class="img">
                 <p>Name: <%= players.Name %>
                 </p>
@@ -30,8 +32,8 @@
                 </p>
                 <p>Weight: <%= players.Weight %>
                 </p>
+            </div>
                 <div class="stats">
-                    Stats
                     <p>FG: <%= players.FG %>% </p>
                     <p>PTS: <%= players.PTS %> </p>
                     <p>AST: <%= players.AST %> </p>
@@ -39,15 +41,19 @@
                     <p>STL: <%= players.STL %> </p>
                     <p>BLK: <%= players.BLK %> </p>
                     <p>TO: <%= players.TO %> </p>
-
-                    HIGHLIGHT: <IFrame src="<%= players.Highlight %> " class="video"></IFrame>
-                  
-                    "Notes": "Thoughts? Add them here."
                 </div>
+                <div><IFrame src="<%= players.Highlight %> " class="video"></IFrame>
+                    <br>
+                <button id="update">Update</button>
+                <button id="delete">Delete</button>
+                </div> 
+            </div>
 
-
+            <p id="notes"><%=players.Notes%></p>
                 <% } %>
             </div>
+         
+
     </div>
 </body>
 

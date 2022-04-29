@@ -1,38 +1,63 @@
 body {
-    background-image: url('https://images.unsplash.com/photo-1559692048-79a3f837883d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80');
+    background-image: url('../assets/basketballcourt.jpg');
     color: white;
-    background-position:inherit;
-    background-size: auto;
+    background-position: center;
+    background-size:contain;
+    font-family: 'Oswald', sans-serif;
 }
 h1 {
     text-align: center;
-    color: blue;
+    color: black;
+    font-size: 75px;
 }
-
+p {
+    font-size: large;
+}
 .logo {
     height: auto;
    width: 100vw;
-
-   
 }
 
 .board {
 display: flex;
 flex-direction: column;
-border: 3px solid red;
-
+border: 3px solid black;
+}
+#notes {
+text-align: center;
 }
 .prospect {
-    border-top: solid red;
+    border-top: solid black;
+    
 }
 .img {
-    width: 10%;
-    height: 25%;
-}
-.stats {
-    text-align: center;
+    width: 125px;
+    height: 160px;
 }
 .video {
     width: 560px;
     height: 315px;
+}
+.alignment {
+    display: flex;
+flex-direction: row;   
+justify-content: space-between;
+align-content: center;}
+.info {
+text-align: center;
+}
+.stats {
+text-align: center;
+}
+#update {
+background-color: blue;
+color: white;
+width: 15em;
+height: 7em;
+}
+#delete {
+background-color: red;
+color: white;
+width: 15em;
+height: 7em;
 }

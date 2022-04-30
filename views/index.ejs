@@ -14,8 +14,7 @@
 
 <body>
     <h1>NBA DraftDay</h1>
-<button class="">ADD A PROSPECT</button>
-
+    <a href="/new" class="addlink">ADD A PROSPECT</a>
     <div class="board">
         <% for(const players of nbaPlayers) { %>
             <div class="prospect">
@@ -45,8 +44,12 @@
                 </div>
                 <div><IFrame src="<%= players.Highlight %> " class="video"></IFrame>
                     <br>
-                <button id="update">Update</button>
-                <button id="delete">Delete</button>
+
+                    <a href="/<%=players.id%>/edit" class="editlink">UPDATE PROSPECT</a>
+                    <br>
+                    <form action="/<%=players.id%>?_method=DELETE" method="POST">
+                    <input type="submit" value="DELETE" class="deletelink" />
+                    </form>
                 </div> 
             </div>
 

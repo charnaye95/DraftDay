@@ -75,3 +75,19 @@ height: 7em;
     color: black;
     font-size: x-large;
 }
+.addlink {
+background-color: seagreen;
+color: black;
+padding: 10px;
+}
+.editlink {
+    background-color: blue;
+    color: black;
+padding: 10px;
+}
+.deletelink {
+    background-color:grey;
+    color: black;
+padding: 10px;
+text-align: right;
+}

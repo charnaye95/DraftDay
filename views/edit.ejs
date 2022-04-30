@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit a Prospect</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Edit Prospect</h1>
+    <form action="/<%=this._id%>?_method=PUT" method="POST" class="newform">
+        <%= console.log(this._id) %> 
+        <div>
+            <label for="Name">Name</label>
+            <input type="text" name="Name" class="form">
+            <br>
+            <label for="Position">Position</label>
+            <input type="text" name="Position" class="form">
+            <br>
+            <label for="League_School">League/School</label>
+            <input type="text" name="League_School" class="form">
+            <br>
+            <label for="Height">Height</label>
+            <input type="text" name="Height" class="form">
+            <br>
+            <label for="Weight">Weight</label>
+            <input type="number" name="Weight" class="form">
+            <br>
+            <label for="Image">Image Link</label>
+            <input type="text" name="Image" class="form">
+            <br>
+            <label for="Highlight">Highlight Link</label>
+            <input type="text" name="Highlight" class="form">
+            <br>
+            <label for="FG">FG%</label>
+            <input type="number" name="FG" class="form">
+            <br>
+            <label for="PTS">PTS</label>
+            <input type="number" name="PTS" class="form">
+            <br>
+            <label for="AST">AST</label>
+            <input type="number" name="AST" class="form">
+            <br>
+            <label for="REB">REB</label>
+            <input type="number" name="REB" class="form">
+            <br>
+            <label for="STL">STL</label>
+            <input type="number" name="STL" class="form">
+            <br>
+            <label for="BLK">BLK</label>
+            <input type="number" name="BLK" class="form">
+            <br>
+            <label for="TO">TO</label>
+            <input type="number" name="TO" class="form">
+
+        </div>
+
+            <input type="submit" value="submit" class="submit" />
+        <a  class='button font cancel' href="/">Cancel</a>
+        </form>
+</html>

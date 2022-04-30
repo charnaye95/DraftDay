@@ -15,8 +15,17 @@ router.get('/new', (req,res) => {
     res.render('new');
     })
 
+// GET / read / players by id
+router.get('/:id', (req,res) => {
+        Nba.find({_id: req.params.id}) 
+        .then((players) => {
+        res.render('index', {nbaPlayers: players})})
+        .catch((err) => res.json(err))
+    })
+    
+
 // GET / read / players by college
-router.get('/:school', (req,res) => {
+router.get('/player/:school', (req,res) => {
 const school = req.params.school[0].toUpperCase() + req.params.school.slice(1)
 console.log(school)
     Nba.find({League_School: school})  

@@ -2,7 +2,7 @@
 
 const express = require('express')
 const app = express()
-
+const port = process.env.PORT || 7777
 
 const methodOverride = require('method-override')
 
@@ -18,7 +18,6 @@ app.use(nbaController)
 
 app.set('view engine', 'ejs')
 
-
-app.listen(7777, () => {
-    console.log("our app is running on port 7777")
+app.listen(port, () => {
+    console.log(`the app is running on port ${port}`)
 })

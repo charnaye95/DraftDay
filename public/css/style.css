@@ -2,7 +2,7 @@ body {
     background-image: url('../assets/basketballcourt.jpg');
     color: white;
     background-position: center;
-    background-size:contain;
+    background-size:auto;
     font-family: 'Oswald', sans-serif;
 }
 h1 {
@@ -60,4 +60,17 @@ background-color: red;
 color: white;
 width: 15em;
 height: 7em;
+}
+.add {
+    text-align: center;
+    align-content: center;
+    width: 15em;
+    height: 7em;
+    background-color: seagreen;
+    color: white;
+}
+.newform {
+    text-align: center;
+    vertical-align: middle;
+    top: 50%;
 }

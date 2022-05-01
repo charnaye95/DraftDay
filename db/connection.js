@@ -1,9 +1,9 @@
 const mongoose = require('mongoose')
-
+require('dotenv').config()
 const mongoURI =
     process.env.NODE_ENV === 'production'
         ? process.env.DB_URL
-        : DB_URL='mongodb+srv://charnaye95:naye95@cluster1.klor5.mongodb.net/DraftDay?retryWrites=true&w=majority';
+        : process.env.DB_URL
         
 mongoose.connect(mongoURI)
 .then(instance =>

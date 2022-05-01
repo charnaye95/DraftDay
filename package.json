@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/charnaye95/DraftDay#readme",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.3",
     "method-override": "^3.0.0",

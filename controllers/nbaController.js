@@ -67,7 +67,7 @@ router.post('/', (req, res) => {
 })
 
 //PUT / update / players information
-router.put("/:id", (req, res) => {
+router.put("/:id/edit", (req, res) => {
     Nba.findOneAndUpdate({ _id: req.params.id }, req.body)
     .then((players) => res.render('index', {nbaPlayers: players}))
 });

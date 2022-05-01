@@ -3,11 +3,11 @@
 **Live Link:** [NBA DraftDay](https://polar-reef-72504.herokuapp.com/)
 
 ## Screenshots
-Home Page
+Home Page<br>
 ![Home](public/assets/homescreen.png)<br>
-Add a Prospect
+Add a Prospect<br>
 ![Add a Prospect](public/assets/newscreen.png)<br>
-Update a Prospect
+Update a Prospect<br>
 ![Update a Prospect](public/assets/editscreen.png)
 
 

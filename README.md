@@ -3,44 +3,57 @@
 **Live Link:** [NBA DraftDay](https://polar-reef-72504.herokuapp.com/)
 
 ## Screenshots
-![Home](DraftDay/public/assets/homescreen.png)
-![Add a Prospect](DraftDay/public/assets/newscreen.png)
+Home Page
+![Home](public/assets/homescreen.png)<br>
+Add a Prospect
+![Add a Prospect](public/assets/newscreen.png)<br>
+Update a Prospect
+![Update a Prospect](public/assets/editscreen.png)
 
 
-## Technologies Used:
--HTML
--CSS
--JavaScript
--Node.js
--Mongoose
--Express
--EJS
--MongoDB
--Heroku
--Postman
+## Technologies Used
+-HTML<br>
+-CSS<br>
+-JavaScript<br>
+-Node.js<br>
+-Mongoose<br>
+-Express<br>
+-EJS<br>
+-MongoDB<br>
+-Heroku<br>
+-Postman<br>
 
 ## User Stories
-MVP
--A working full-stack application, built by you, using Node.js, Mongoose, Express and EJS (try this first)
--Adhere to the MVC file structure: Models, Views, Controllers
--At least one model (for NBA teams) with all 5 RESTful routes and full CRUD.
+MVP<br>
+
+-A working full-stack application, built by you, using Node.js, Mongoose, Express and EJS (try this first)<br>
+
+-Adhere to the MVC file structure: Models, Views, Controllers<br>
+
+-At least one model (for NBA teams) with all 5 RESTful routes and full CRUD.<br>
+
 -A git repository inside my personal GitHub
--At least one Github commit per "day of class".
--Be deployed online and accessible to the public via Heroku
+-At least one Github commit per "day of class".<br>
+
+-Be deployed online and accessible to the public via Heroku<br>
+
 -A README.md file
 
-Stretch Goals
--I'd like to use Bootstrap
--I'd like to see if I can create a modal or another route for two players that can be compared by looking at both at the same time together side by side
--I'd like to add other models/databases for other sports
+Stretch Goals<br>
+
+-I'd like to use Bootstrap<br>
+
+-I'd like to see if I can create a modal or another route for two players that can be compared by looking at both at the same time together side by side<br>
+
+-I'd like to add other models/databases for other sports<br>
 
 ## Approach
 Created models and set up database first. Then went one by one on the routes and CSS throughout.
 
 ## Unsolved Problems
-I could not get my put route/update to work. I worked on it for hours, but to no avail. I will definitely have to come back to that to understand where the disconnect is.
+I want for the update route to update specific pieces individually, not the whole data. Because as of now if I leave something blank after updating it won't take in the info I had prior, it will return as blank.
 
-## Sources: 
-ESPN
-Bleacher Report
+## Sources
+ESPN<br>
+Bleacher Report<br>
 YouTube

@@ -50,7 +50,7 @@ router.get('/:id', (req, res) => {
 
 //Edit route
 router.get('/:id/edit', (req, res) => {
-    Nba.find({ _id: req.params.id })
+    Nba.findById(req.params.id)
         .then((players) => {
             res.render('edit', { nbaPlayers: players })
         })
@@ -69,7 +69,7 @@ router.post('/', (req, res) => {
 //PUT / update / players information
 router.put("/:id/edit", (req, res) => {
     Nba.findOneAndUpdate({ _id: req.params.id }, req.body)
-    .then((players) => res.render('index', {nbaPlayers: players}))
+    .then((players) => res.redirect('/'))
 });
 
 //PUT / update / notes on a player

@@ -24,6 +24,12 @@ Update a Prospect<br>
 -Postman<br>
 
 ## User Stories
+
+-Users can view a pool of NBA draft prospects, and see their statistics and scouting/highlight videos.<br>
+-Users can create prospects, thus adding them to the database.<br>
+-Users can delete prospects from the database.<br>
+-Users can update prospect information and see it changed on the website, but also in the database.<br>
+
 MVP<br>
 
 -A working full-stack application, built by you, using Node.js, Mongoose, Express and EJS (try this first)<br>

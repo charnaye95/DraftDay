@@ -47,6 +47,9 @@ Stretch Goals<br>
 
 -I'd like to add other models/databases for other sports<br>
 
+-I'd like to increase the speed for the site, with all of the players its slow to load.<br>
+
+
 ## Approach
 Created models and set up database first. Then went one by one on the routes and CSS throughout.
 

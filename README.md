@@ -1,6 +1,6 @@
 # DraftDay
 
-**Live Link:** [NBA DraftDay](https://polar-reef-72504.herokuapp.com/)
+**Live Link:** [NBA DraftDay](https://draftday.cyclic.app/)
 
 ## Screenshots
 Home Page<br>
